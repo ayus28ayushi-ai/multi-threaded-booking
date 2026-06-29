@@ -1,0 +1,22 @@
+### Test Successful Booking
+POST http://localhost:8080/api/seats/book?name=Ayushi&row=1&col=2
+
+### Test Flight Details
+GET http://localhost:8080/api/seats/all
+
+### Test Successful Booking Updates
+PUT http://localhost:8080/api/seats/update/5
+Content-Type: application/json
+
+{
+  "newName": " Lily"
+}
+
+### Test Successful Booking Deletion
+DELETE http://localhost:8080/api/seats/cancel/1
+
+### Test Duplicate Booking (Collision)
+POST http://localhost:8080/api/seats/book?name=Atlas&row=1&col=2
+
+### Test Invalid Seat
+POST http://localhost:8080/api/seats/book?name=Lily&row=99&col=99
