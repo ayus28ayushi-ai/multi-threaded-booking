@@ -1,4 +1,4 @@
-package com.flysafe;
+package com.flysafe.service;
 
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 import org.springframework.stereotype.Service;

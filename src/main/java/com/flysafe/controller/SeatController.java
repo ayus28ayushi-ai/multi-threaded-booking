@@ -1,8 +1,8 @@
 package com.flysafe.controller;
 
-import com.flysafe.BookingRequest;
-import com.flysafe.Seat;
-import com.flysafe.SeatService;
+import com.flysafe.model.BookingRequest;
+import com.flysafe.model.Seat;
+import com.flysafe.service.SeatService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;

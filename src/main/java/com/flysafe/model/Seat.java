@@ -1,4 +1,4 @@
-package com.flysafe;
+package com.flysafe.model;
 
 import jakarta.persistence.*;
 

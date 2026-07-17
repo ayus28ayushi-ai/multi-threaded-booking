@@ -1,4 +1,4 @@
-package com.flysafe;
+package com.flysafe.model;
 
 public class BookingRequest {
     private String newName;

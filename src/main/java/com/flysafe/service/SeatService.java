@@ -1,6 +1,7 @@
-package com.flysafe;
+package com.flysafe.service;
 
-import org.springframework.orm.ObjectOptimisticLockingFailureException;
+import com.flysafe.model.Seat;
+import com.flysafe.repository.SeatRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

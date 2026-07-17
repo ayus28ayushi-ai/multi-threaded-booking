@@ -1,5 +1,6 @@
-package com.flysafe;
+package com.flysafe.repository;
 
+import com.flysafe.model.Seat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
