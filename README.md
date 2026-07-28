@@ -19,7 +19,7 @@ The primary objective of this application is to safely handle multiple simulatio
 
 You can view and test the full interactive Swagger documentation for all API endpoints online without running the server locally:
 
- ***[Click Here to Open Interactive Swagger UI](https://raw.githubusercontent.com/ayus28ayushi-ai/multi-threaded-booking/refs/heads/main/openai.json)***
+ ***[Click Here to Open Interactive Swagger UI](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/ayus28ayushi-ai/multi-threaded-booking/refs/heads/main/openai.json)***
 --
 
 ## Project Architecture
