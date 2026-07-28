@@ -14,12 +14,6 @@ The primary objective of this application is to safely handle multiple simulatio
 * **Data Integrity:** Prevents double-bookings and transactional conflicts under heavy concurrent load.
 * **Performance Optimization:** Relies on a version-based concurrency control model (`@Version`) instead of using resource-heavy database table locks.
 
----
-##  Interactive API Documentation
-
-You can view and test the full interactive Swagger documentation for all API endpoints online without running the server locally:
-
- ***[Click Here to Open Interactive Swagger UI](https://raw.githubusercontent.com/ayus28ayushi-ai/multi-threaded-booking/refs/heads/main/openai.json)***
 --
 
 ## Project Architecture
