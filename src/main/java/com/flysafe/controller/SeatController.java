@@ -13,6 +13,7 @@ import java.util.List;
 //Marks the class as a REST API controller
 @RestController
 @RequestMapping("/api/seats")
+@CrossOrigin(origins = "*")
 public class SeatController {
     //Automatically injecting the SeatService business logic bean here
 
