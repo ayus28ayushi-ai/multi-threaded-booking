@@ -50,3 +50,5 @@ public class FlightBookingApplication implements CommandLineRunner {
         System.out.println("Database initialization done with empty seats!");
     }
 }
+
+
